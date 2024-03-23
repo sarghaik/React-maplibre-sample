@@ -1,0 +1,22 @@
+.tab-wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.tab-content {
+  position: relative;
+  height: 90%;
+}
+
+.tab-control {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-title {
+  cursor: pointer;
+}
+
+.selected {
+  color: blue;
+}

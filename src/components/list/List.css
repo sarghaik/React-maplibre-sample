@@ -1,0 +1,46 @@
+.list-wrapper {
+  position: relative;
+  height: 85vh;
+}
+
+.list-content {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.row-item {
+  padding: 5px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.small-cap {
+  font-size: 10px;
+}
+
+.seq-num {
+  background-color: gray;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.bg-gray {
+  background-color: #D3D3D3;
+}
+
+.button {
+  background-color: white;
+  border-radius: 6px;
+  margin: 10px;
+  cursor: pointer;
+}
